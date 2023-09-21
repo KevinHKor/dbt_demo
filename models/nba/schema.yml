@@ -1,0 +1,17 @@
+
+version: 2
+
+sources:
+  - name: etl_nba
+    description: "A starter dbt model for nba stats"
+    database: etl
+    schema: PUBLIC
+    tables: 
+      - name: STATS_PER_GAME_AVG_2023
+        description: 'Details about the average common stats for the NBA season 2023.'
+        columns:
+        - name: id
+          description: "The primary key for this table"
+          tests:
+            - unique
+            - not_null

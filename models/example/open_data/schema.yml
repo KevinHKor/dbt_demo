@@ -1,0 +1,10 @@
+# version: 2
+
+# sources:
+#   - name: open_data_crime_data
+#     description: 'Database for raw crime data.'
+#     database: open_data_crime
+#     schema: crime
+#     tables:
+#       - name: crime_logs
+#       description: 'Details about crimes in major cities.'
